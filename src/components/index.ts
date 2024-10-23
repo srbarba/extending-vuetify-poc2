@@ -1,7 +1,3 @@
-import Card from './Card.vue'
-import Button from './Button.vue'
+import SButton from './SButton.vue'
 
-export {
-  Card,
-  Button,
-}
+export { SButton }

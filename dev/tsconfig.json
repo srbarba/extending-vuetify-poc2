@@ -4,7 +4,7 @@
     "paths": {
       "my-library": ["../src"]
     },
-    "types": ["vite/client"]
+    "types": ["vite/client", "./components.d.ts"]
   },
   "include": ["./**/*"]
 }
