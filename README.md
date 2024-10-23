@@ -9,6 +9,14 @@ Features:
 - Playground with [vite](https://vitejs.dev/)
 - Sample SFC to kick-start development
 
+# Pending tests
+
+- Add i18n custom translations.
+- integrate with vuei18n.
+- Expose unified config function/plugin.
+- Add tailwindcss.
+- Add storybook.
+
 ## Generate a project
 
 Vue 3
@@ -49,8 +57,8 @@ Install all components (as a plugin)
 ```ts
 // src/main.ts
 
-import { createApp } from 'vue'
 import MyLibrary from 'my-library'
+import { createApp } from 'vue'
 
 import App from './App.vue'
 
@@ -70,3 +78,4 @@ import { Button, Card } from 'my-library/components'
 ## License
 
 MIT
+
